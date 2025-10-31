@@ -19,6 +19,11 @@ import time
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
+import sys
+
+# dynamically add src folder to Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
 # ================================================================
 # Page Setup
